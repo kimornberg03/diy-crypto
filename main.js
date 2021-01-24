@@ -1,3 +1,8 @@
 import { ceasarEncypt, ceasarDecypt } from "./diycrypto.js"
 
-console.log(ceasarEncypt("Hello", 1))
+
+var stringTemp1 = ceasarEncypt("ILOVEYOULISA", 1)
+
+console.log(stringTemp1)
+
+console.log(ceasarDecypt(stringTemp1, 1))
